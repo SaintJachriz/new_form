@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/images/bg-intro-desktop.png), rgb(247, 130, 150);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Hero Text */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text{
+    margin-top: 200px;
+    margin-left: 25px;
+}
+
+.hero-text h2{
+    width: 400px;
+    color: #fff;
+    font-size: 43px;
+    line-height: 1.5;
+}
+
+.hero-text p{
+    width: 600px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/* Form */
+
+.form-container{
+    background: #fff;
+    width: 550px;
+    height: 680px;
+    justify-items: center;
+    margin-top: 60px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+form{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+button{
+    width: 90%;
+    height: 50px;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+    font-size: 17px;
+    text-transform: uppercase;
+    background: rgb(36, 197, 84);
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-bottom: 25px;
+}
+
+button:hover{
+    background: skyblue;
+}
+
+.text{
+    /* margin-top: 45px; */
+    font-size: 15px;
+    color: #ccc;
+    /* width: 600px; */
+}
+
+span{
+    color: rgb(247, 130, 150);
+    font-weight: bolder;
+}
+
+/* Top Text */
+
+.top{
+    float: right;
+    position: absolute;
+    right: 5%;
+    top: 0;
+    background: rgb(130, 89, 184);
+    padding: 15px 80px;
+    margin-bottom: 30px;
+    /* margin-top: 50px; */
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+}
+
+.top span{
+    color: #fff;
+}
+
+#icon{
+    display: none;
+    position: relative;
+    right: 12%;
+}
+
+#icon2{
+    display: none;
+    position: relative;
+    right: 12%;
+}
+
+#icon3{
+    display: none;
+    position: relative;
+    right: 12%;
+}
+
+#icon4{
+    display: none;
+    position: relative;
+    right: 12%;
+}
+
+/* Error Messages */
+
+#error{
+    float: right;
+}
+
+#error2{
+    float: right;
+}
+
+#error3{
+    float: right;
+}
+
+#error4{
+    float: right;
+}
+
+@media (max-width: 414px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-text h2{
+        text-align: center;
+        font-size: 39px;
+        margin-bottom: 20px;
+    }
+
+    .hero-text p{
+        width: 300px;
+        margin-left: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+    }
+
+    .form-container{
+        width: 400px;
+        height: 670px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .top{
+        top: 55%;
+        margin-left: 10px;
+        box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+        width: 350px;
+    }
+
+    .top p{
+        width: 200px;
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+
+    input{
+        width: 350px;
+    }
+
+    button{
+        width: 85%;
+        height: 70px;
+        margin-left: 20px;
+    }
+
+    .text{
+        width: 300px;
+        text-align: center;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-text{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .hero-text h2{
+        text-align: center;
+        font-size: 39px;
+        margin-bottom: 20px;
+    }
+
+    .hero-text p{
+        width: 300px;
+        margin-left: 40px;
+        padding-bottom: 40px;
+        margin-bottom: 20px;
+    }
+
+    .form-container{
+        width: 400px;
+        height: 690px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    .top{
+        top: 100%;
+        margin-left: 10px;
+        box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+        width: 350px;
+    }
+
+    .top p{
+        width: 200px;
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 2px;
+        padding: 10px;
+    }
+
+    input{
+        width: 350px;
+    }
+
+    button{
+        width: 85%;
+        height: 70px;
+        margin-left: 20px;
+    }
+
+    .text{
+        width: 300px;
+        text-align: center;
+        padding-left: 20px;
+    }
+}
